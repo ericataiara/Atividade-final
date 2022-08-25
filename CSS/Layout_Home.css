@@ -24,7 +24,7 @@ body > header > h1
     font-size: 2em;
     font-family: "Courier New", monospace;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .menu
