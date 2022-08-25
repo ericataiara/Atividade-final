@@ -14,7 +14,7 @@ body {
 }
 #book {
     position: relative;
-    background: url("../img/bg.jpg") no-repeat fixed center;
+    background: url("../images/Yayoi_001.jpg") no-repeat fixed center;
     background-size: cover;
     min-height: 470px;
 }
