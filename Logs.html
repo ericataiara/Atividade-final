@@ -6,11 +6,34 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Coffee, Books and Cats Log</title>
+        <title>Coffee, Books and Cats Album</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="CSS/Reset.css" type = "text/css" rel ="stylesheet">
-        <link href = "CSS/Layout_Logs.css" type = "text/css" rel = "stylesheet">
+        <link href = "CSS/Layout_Album.css" type = "text/css" rel = "stylesheet">
+        <link href = "index.html">
+        <style>
+            div.gallery {
+              margin: 5px;
+              border: 1px solid #ccc;
+              float: left;
+              width: 500px;
+            }
+            
+            div.gallery:hover {
+              border: 1px solid #777;
+            }
+            
+            div.gallery img {
+              width: 100%;
+              height: auto;
+            }
+            
+            div.desc {
+              padding: 15px;
+              text-align: center;
+            }
+            </style>
     </head>
     <body>
         <header>
@@ -26,7 +49,7 @@ and open the template in the editor.
                         <a title="View Album" href = "Album.html">Album</a>
                     </li>
                     <li class ="menu_item4">
-                        <a title="View logs" href="Logs.html">Logs</a>
+                        <a title="View logs" href="Logs.html">Cafés</a>
                     </li>
                     <li>
                         <a title = "Go to sign in" href="SignIn.html">Sign in</a>
@@ -34,8 +57,55 @@ and open the template in the editor.
                 </ul>
             </nav>
         </header>
-        <div class = "logs">
-            <h1>Logs</h1>   
-        </div>      
+
+
+        <div class = gridContainer>
+            <div class="gallery">
+                <a href="https://www.instagram.com/papacapimrestaurante/?utm_source=ig_embed&ig_rid=a6563392-1a58-46d6-95f7-b643ffc06b9c">
+                    <img src="images/papa.png" href="https://www.instagram.com/papacapimrestaurante/?utm_source=ig_embed&ig_rid=a6563392-1a58-46d6-95f7-b643ffc06b9c" alt="Yayoi_001" title="Yayoi_001">
+                </a>
+            </div>
+            <div class="gallery">
+                <a href="https://www.instagram.com/botanikafe/?hl=pt-br">
+                    <img src="images/botani.png" href="https://www.instagram.com/botanikafe/?hl=pt-br" alt="Yayoi_001" title="Yayoi_001">
+                </a>
+            </div>
+            <div class="gallery">
+                <a href="https://www.instagram.com/cocobambuoficial/?hl=pt-br">
+                    <img src="images/coco.jpg" href="https://www.instagram.com/cocobambuoficial/?hl=pt-br" alt="Yayoi_001" title="Yayoi_001">
+                </a>
+            </div>  
+            <div class="gallery">
+                <a href="https://www.instagram.com/freak.cafe/">
+                    <img src="images/freak.webp" href="https://www.instagram.com/freak.cafe/" alt="Yayoi_001" title="Yayoi_001">
+                </a>
+            </div>
+            <div class="gallery">
+                <a href="https://www.instagram.com/livrariadapraca/?utm_source=ig_embed&ig_rid=5ac13e22-1b9d-42e6-9b66-d31b3c713c59">
+                    <img src="images/praca.png" href="https://www.instagram.com/livrariadapraca/?utm_source=ig_embed&ig_rid=5ac13e22-1b9d-42e6-9b66-d31b3c713c59" alt="Yayoi_001" title="Yayoi_001">
+                </a>
+            </div>
+            <div class="gallery">
+                <a href="https://www.instagram.com/cafemaisprosa/?utm_source=ig_embed&ig_rid=2f3fd6ac-4d16-472d-92ff-53f03c52dfeb">
+                    <img src="images/café.jpg" href="https://www.instagram.com/cafemaisprosa/?utm_source=ig_embed&ig_rid=2f3fd6ac-4d16-472d-92ff-53f03c52dfeb" alt="Yayoi_001" title="Yayoi_001">
+                </a>
+            </div>
+            <div class="gallery">
+                <a href="https://www.instagram.com/coffeelab_br/">
+                    <img src="images/lab.jpg" href="https://www.instagram.com/coffeelab_br/" alt="Yayoi_001" title="Yayoi_001">
+                </a>
+            </div>
+            <div class="gallery">
+                <a href="https://www.instagram.com/studiomu_/?utm_source=ig_embed&ig_rid=450e782d-e6b0-43fd-8c97-0bc877943e35">
+                    <img src="images/mu.jpg" href="https://www.instagram.com/studiomu_/?utm_source=ig_embed&ig_rid=450e782d-e6b0-43fd-8c97-0bc877943e35" alt="Yayoi_001" title="Yayoi_001">
+                </a>
+            </div>
+            <div class="gallery">
+                <a href="https://www.instagram.com/vainoeva/">
+                    <img src="images/vai.jpg" href="https://www.instagram.com/vainoeva/" alt="Yayoi_001" title="Yayoi_001">
+                </a>
+            </div>
+        </div>
+       
     </body>
 </html>
